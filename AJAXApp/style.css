@@ -1,0 +1,41 @@
+body {
+    background: #bada55;
+    margin: 0 auto;
+    width: 70%;
+}
+#searchArea {
+    margin: 0 auto;
+    text-align: center;
+    background: #ff9999;
+    padding: 10px;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+#searchArea label {
+    font: bold 1.3em Arial;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+#searchArea p {
+    font-style: italic;
+/*    font: bold italic large Palatino, serif;*/
+}
+#searchArea input {
+    width: 40%;
+}
+#update {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+#update ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#update ul li {
+    padding: 0 20px;
+    background: #EEE;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    overflow: hidden
+}
